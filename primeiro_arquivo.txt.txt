@@ -1,0 +1,19 @@
+Resumo Git
+							
+O Git basicamente é uma sistema de controle de versões distribuidos, usado no desenvolvimento de software, que pode ser usado para resgistrar os históricos de edições
+de qualquer tipo de arquivo. As principais funções dessa ferramenta são: permitir que os desenvolvedores trabalhem ao mesmo tempo, não perminte substituir as alterações
+um do outro, ele mantém um histórico de todas as versões, também é um sitema de controle de versão descentralizado.
+Ele também tem três estados:
+Commited  que seguinifica que os dados estão armazenados de uma forma segura no banco de dados local.
+Modificado significa que alteramos o arquivo porém não fez o commit no banco de dados.
+Preparado que marcamos a versão atual de um arquivo modificado para fazer o seu próximo commit.
+O Git divide o seu diretório em seções que permanecem fundamentais para o projeto , o repositório git onde se encontram os arquivos em sua forma de committed, são todos
+os arquivos que servem para analisar o estado que se encotra os arquivos no diretório de trabalho, no diretório de trabalho etão todos os arquivos que são modificáveis,
+e preparação.
+Após a instalação do Git, fiz as configurações usando o comando: git config –global user.name, git config –global user.email, para identificar o nome e e-mail do usuário.
+Usei o comando git config. --list para testar as configurações, aprendi clonar um repositório usando git clone e colocando o url copiado na frente, fiz o monitoramento de um arquivo usando o comando, git add. e o commit -m "com uma mensagem inicial". Principais comandos:
+git status tem como saída o estado em que se encontra cada arquivo modificado ou criado.
+git diff para observar as mudanças feitas em arquivos monitorados modificados.
+git log verifica o histórico dos commits efetuados em determinado repositório.
+Para criar uma tag simples devemos inserir o comando git tag -a v1.0.
+Para enviar os arquivos remotos devemos usar o comando push , git push origin branch, branch é o nome da branch que deseja enviar o arquivo, quando enviado para a master comando git push origin master.
